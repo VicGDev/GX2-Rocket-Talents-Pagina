@@ -1,0 +1,41 @@
+body {
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px 120px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    background-color: #10DFC2;
+    top: 19px;
+    left: 1033px;
+    width: 213px;
+    height: 42px;
+    border-radius: 15px;
+    border-color: #10DFC2;
+    color: #FBFBFB;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    transition: 0.5s all;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color:#10DFC2;
+    border: solid 2.5px#10DFC2 ;
+    
+}
+
