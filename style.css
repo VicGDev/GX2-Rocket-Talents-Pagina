@@ -1,6 +1,5 @@
 body {
     font-family: "Montserrat";
-    font-weight: 900;
 }
 
 header {
@@ -9,11 +8,14 @@ header {
     justify-content: space-between;
     flex-direction: row;
     padding: 20px 120px;
+    flex-wrap: wrap;
 }
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
+    font-weight: 900;
 }
 
 button {
@@ -35,19 +37,62 @@ button {
 button:hover {
     background-color: white;
     color:#10DFC2;
-    border: solid 2.5px#10DFC2 ;
-    
+    border: solid 2.5px#10DFC2;
 }
 
-.background {
+.section-1 {
     display: flex;
+    background: url(imagens/Background.png);
+    width: 1366px;
+    height: 500px;
+    background-size: cover;
+    flex: auto;
+}
+
+.divLeft {
+    width: 683px;
 }
 
 .logoBranco {
-    top: 180px;
-    left: 225px;
+    padding: 100px 225px 24px;
     width: 66px;
     height: 19px;
-    position: absolute;
 }
+
+.hIntro {
+    display: flex;
+    padding: 0px 225px;
+    color: white;
+    width: 419px;
+    height: 153px;
+    font: normal normal bold 40px/52px Montserrat;
+}
+
+.pIntro {
+    padding: 24px 296px 99px    225px ;
+    color: white;
+    width: 288px;
+    height: 84px;
+    font: normal normal normal 18px/31px Montserrat;
+}
+
+.divRight {
+    width: 683px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoRocket {
+    padding: 100px 321.75px 69.66px 261.75px;
+    width: 138px;
+    height: 157px;
+}
+
+.logoTalent {
+    padding: 0px 225px 100px 180px;
+    width: 332px;
+    height: 76px;
+}
+
 
