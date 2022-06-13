@@ -49,6 +49,8 @@ button:hover {
 }
 
 .divLeft {
+    padding-right: 261px;
+    min-width: 0;
     width: 683px;
 }
 
@@ -76,6 +78,7 @@ button:hover {
 }
 
 .divRight {
+    padding: 100px 225px 100px 296px;
     width: 1366px;
     align-items: center;
     display: flex;
@@ -83,13 +86,12 @@ button:hover {
 }
 
 .logoRocket {
-    padding: 100px 250px 69.66px 261.75px;
     width: 138px;
     height: 157px;
 }
 
 .logoTalent {
-    padding: 0px 150px 100px 180px;
+    padding-top: 69.66px;
     width: 332px;
     height: 76px;
 }
