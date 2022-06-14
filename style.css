@@ -59,13 +59,13 @@ button:hover {
 
 .logoBranco {
     padding-top: 10rem ;
-    padding-left: 25.5rem;
+    padding-left: 22.5rem;
 }
 
 .carreiraText {
     color: white;
     padding-top: 2.4rem;
-    padding-left: 25.5rem;
+    padding-left: 22.5rem;
     font: normal normal bold 4rem/5.2rem Montserrat;  
     margin: 0rem;  
 }
@@ -73,7 +73,7 @@ button:hover {
 .tripulaçãoText {
     color: white;
     padding-top: 2.4rem;
-    padding-left: 25.5rem;
+    padding-left: 22.5rem;
     font: normal normal normal 1.8rem/3.1rem Montserrat;
 }
 
@@ -97,4 +97,48 @@ button:hover {
 
 /*CSS Section2*/
 
+.flexboxSection2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-Left-Section2 {
+    width: 60%;
+    height: 100vh;
+}
+
+.programaText {
+    padding-top: 10.1rem;
+    padding-left: 25rem;
+    font: normal normal bold 3.2rem/4.1rem Montserrat;
+    color: #032624;
+}
+
+.soluçãoText {
+    padding-top: 2.4rem;
+    padding-left: 25rem;
+    font: normal normal normal 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.soluçãoText span {
+    font: normal normal bold 1.6rem/2.3rem Montserrat;
+}
+
+.portaText {
+    padding-top: 1.6rem;
+    padding-left: 25rem;
+    font: normal normal 600 1.6rem/2.3rem Montserrat;
+    color: #0EAFAC;
+}
+
+.container-Right-Section2 {
+    width: 40%;
+}
+
+.foto1 {
+    padding-right: 25rem;
+    padding-top: 5rem;
+    width: 25.3rem;
+}
 
