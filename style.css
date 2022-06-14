@@ -40,60 +40,51 @@ button:hover {
     border: solid 2.5px#10DFC2;
 }
 
-.section-1 {
+.flexboxSection1 {
     display: flex;
-    background: url(imagens/Background.png);
-    width: 1366px;
-    height: 500px;
-    background-size: cover;
+    flex-direction: row;
+    width: 100%;
+    background: url(Imagens/Background.png);
+    height: 503px;
 }
 
-.divLeft {
-    padding-right: 261px;
-    min-width: 0;
-    width: 683px;
+.containerLeft {
+    width: 50%;
 }
 
 .logoBranco {
-    padding: 100px 225px 24px;
-    width: 66px;
-    height: 19px;
+    padding-top: 100px ;
+    padding-left: 255px;
 }
 
-.hIntro {
-    display: flex;
-    padding: 0px 225px;
+.carreiraText {
     color: white;
-    width: 419px;
-    height: 153px;
-    font: normal normal bold 40px/52px Montserrat;
+    padding-top: 24px;
+    padding-left: 255px;
+    font: normal normal bold 40px/52px Montserrat;  
+    margin: 0px;  
 }
 
-.pIntro {
-    padding: 24px 296px 99px    225px ;
+.tripulaçãoText {
     color: white;
-    width: 288px;
-    height: 84px;
+    padding-top: 24px;
+    padding-left: 255px;
     font: normal normal normal 18px/31px Montserrat;
 }
 
-.divRight {
-    padding: 100px 225px 100px 296px;
-    width: 1366px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.containerRight {
+    width: 50%;
 }
 
 .logoRocket {
-    width: 138px;
-    height: 157px;
+    padding-top: 100px;
+    padding-left: 261.75px;
+    
 }
 
-.logoTalent {
+.logoTalents {
     padding-top: 69.66px;
-    width: 332px;
-    height: 76px;
+    padding-left: 148px;
 }
 
 
