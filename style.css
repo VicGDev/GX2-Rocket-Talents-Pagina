@@ -36,6 +36,7 @@ button {
     transition: 0.5s all;
     cursor: pointer;
     border: none;
+    font-size: 1.8rem
 }
 
 button:hover {
@@ -58,6 +59,7 @@ button:hover {
 }
 
 .logoBranco {
+    width: 6.6rem;
     padding-top: 10rem ;
     padding-left: 22.5rem;
 }
@@ -104,7 +106,6 @@ button:hover {
 
 .container-Left-Section2 {
     width: 60%;
-    height: 100vh;
 }
 
 .programaText {
@@ -140,5 +141,134 @@ button:hover {
     padding-right: 25rem;
     padding-top: 5rem;
     width: 25.3rem;
+    padding-bottom: 5rem;
 }
 
+.section3 {
+    background: #F6F6F6 0% 0% no-repeat;
+}
+
+.flexbox-Top-Section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.funcionaText {
+    padding-top: 5rem;
+    font: normal normal bold 3.2rem/4.1rem Montserrat;
+    color: #0EAFAC;
+}
+
+.especialistaText {
+    padding-top: 1.6rem;
+    font: normal normal normal 1.6rem/2.3rem Montserrat;
+    color: #032624;
+    text-align: center;
+}
+
+.especialistaText span {
+    font: normal normal bold 1.6rem/2.3rem Montserrat;
+}
+
+.flexbox-Bot-Section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.9rem;
+    padding: 5rem 11.5rem;
+}
+
+.card {   
+    width: 26.2rem;
+    height: 25rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0rem 0rem 1rem #00000029;
+    border-radius: 0.5rem;
+}
+
+.card1 {
+    padding: 2rem 4.1rem 7.9rem 2rem;
+}
+
+.card1-img {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.card1-h {
+    padding-top: 2.4rem;
+    font: normal normal 600 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.card1-p {
+    padding-top: 1.6rem;
+    font: normal normal normal 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.card2 {
+    padding: 2rem 3.8rem 7.9rem 2rem;
+}
+
+.card2-img {
+    width: 3rem;
+    height: 2.7rem;
+}
+
+.card2-h {
+    padding-top: 2.4rem;
+    font: normal normal 600 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.card2-p {
+    padding-top: 1.6rem;
+    font: normal normal normal 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.card3 {
+    padding: 2rem 1.4rem 3.3rem 2rem;
+}
+
+.card3-img {
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+.card3-h {
+    padding-top: 2.4rem;
+    font: normal normal 600 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.card3-p {
+    padding-top: 1.6rem;
+    font: normal normal normal 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.card4 {
+    padding: 2.7rem 2.4rem 2.9rem 2rem;
+}
+
+.card4-img {
+    width: 3.6rem;
+    height: 2rem;
+}
+
+.card4-h {
+    padding-top: 2.4rem;
+    font: normal normal 600 1.6rem/2.3rem Montserrat;
+    color: #032624;
+}
+
+.card4-p {
+    padding-top: 1.6rem;
+    font: normal normal normal 1.6rem/2.3rem Montserrat;Montserrat;
+    color: #032624;
+
+
+}
