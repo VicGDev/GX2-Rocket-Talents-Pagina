@@ -46,12 +46,12 @@ button:hover {
 }
 
 /*CSS Section1*/
-.flexboxSection1 {
+.section1 {
     display: flex;
     flex-direction: row;
     width: 100%;
     background: url(Imagens/Background.png);
-    height: 50.3rem;
+    height: 503px;
 }
 
 .container-Left-Section1 {
@@ -59,24 +59,24 @@ button:hover {
 }
 
 .logoBranco {
-    width: 6.6rem;
-    padding-top: 10rem ;
-    padding-left: 22.5rem;
+    width: 66px;
+    padding-top: 100px;
+    padding-left: 225px;
 }
 
 .carreiraText {
     color: white;
-    padding-top: 2.4rem;
-    padding-left: 22.5rem;
-    font: normal normal bold 4rem/5.2rem Montserrat;  
+    padding-top: 24px;
+    padding-left: 225px;
+    font: normal normal bold 40px/52px Montserrat;  
     margin: 0rem;  
 }
 
 .tripulaçãoText {
     color: white;
-    padding-top: 2.4rem;
-    padding-left: 22.5rem;
-    font: normal normal normal 1.8rem/3.1rem Montserrat;
+    padding-top: 24px;
+    padding-left: 225px;
+    font: normal normal normal 18px/31px Montserrat;
 }
 
 .container-Right-Section1 {
@@ -86,20 +86,20 @@ button:hover {
 }
 
 .logoRocket {
-    padding-top: 10rem;
-    padding-left: 26rem;
-    width: 13.85rem;
+    margin-top: 100px;
+    margin-left: 260px;
+    width: 138.5px;
 }
 
 .logoTalents {
-    padding-top: 6.9rem;
-    padding-left: 14.8rem;
-    width: 33.2rem;
+    margin-top: 69px;
+    margin-left: 148px;
+    width: 332px;
 }
 
 /*CSS Section2*/
 
-.flexboxSection2 {
+.section2 {
     display: flex;
     flex-direction: row;
 }
@@ -109,27 +109,27 @@ button:hover {
 }
 
 .programaText {
-    padding-top: 10.1rem;
-    padding-left: 25rem;
-    font: normal normal bold 3.2rem/4.1rem Montserrat;
+    padding-top: 101px;
+    padding-left: 250px;
+    font: normal normal bold 32px/41px Montserrat;
     color: #032624;
 }
 
 .soluçãoText {
-    padding-top: 2.4rem;
-    padding-left: 25rem;
-    font: normal normal normal 1.6rem/2.3rem Montserrat;
+    padding-top: 24px;
+    padding-left: 250px;
+    font: normal normal normal 16px/23px Montserrat;
     color: #032624;
 }
 
 .soluçãoText span {
-    font: normal normal bold 1.6rem/2.3rem Montserrat;
+    font: normal normal bold 16px/23px Montserrat;
 }
 
 .portaText {
-    padding-top: 1.6rem;
-    padding-left: 25rem;
-    font: normal normal 600 1.6rem/2.3rem Montserrat;
+    padding-top: 16px;
+    padding-left: 250px;
+    font: normal normal 600 16px/23px Montserrat;
     color: #0EAFAC;
 }
 
@@ -138,10 +138,9 @@ button:hover {
 }
 
 .foto1 {
-    padding-right: 25rem;
-    padding-top: 5rem;
-    width: 25.3rem;
-    padding-bottom: 5rem;
+    margin-right:  250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .section3 {
@@ -155,120 +154,136 @@ button:hover {
 }
 
 .funcionaText {
-    padding-top: 5rem;
-    font: normal normal bold 3.2rem/4.1rem Montserrat;
+    padding-top: 50px;
+    font: normal normal bold 32px/41px Montserrat;
     color: #0EAFAC;
 }
 
 .especialistaText {
-    padding-top: 1.6rem;
-    font: normal normal normal 1.6rem/2.3rem Montserrat;
+    padding-top: 16px;
+    font: normal normal normal 16px/23px Montserrat;
     color: #032624;
     text-align: center;
 }
 
 .especialistaText span {
-    font: normal normal bold 1.6rem/2.3rem Montserrat;
+    font: normal normal bold 16px/23px Montserrat;
 }
 
 .flexbox-Bot-Section3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2.9rem;
-    padding: 5rem 11.5rem;
+    gap: 29px;
+    padding: 50px 115px;
 }
 
 .card {   
-    width: 26.2rem;
-    height: 25rem;
+    width: 262px;
+    height: 250px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0rem 0rem 1rem #00000029;
-    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px #00000029;
+    border-radius: 5px;
 }
 
 .card1 {
-    padding: 2rem 4.1rem 7.9rem 2rem;
-}
-
-.card1-img {
-    width: 2.7rem;
-    height: 2.7rem;
-}
-
-.card1-h {
-    padding-top: 2.4rem;
-    font: normal normal 600 1.6rem/2.3rem Montserrat;
-    color: #032624;
-}
-
-.card1-p {
-    padding-top: 1.6rem;
-    font: normal normal normal 1.6rem/2.3rem Montserrat;
-    color: #032624;
+    padding: 20px 41px 79px 20px;
 }
 
 .card2 {
-    padding: 2rem 3.8rem 7.9rem 2rem;
-}
-
-.card2-img {
-    width: 3rem;
-    height: 2.7rem;
-}
-
-.card2-h {
-    padding-top: 2.4rem;
-    font: normal normal 600 1.6rem/2.3rem Montserrat;
-    color: #032624;
-}
-
-.card2-p {
-    padding-top: 1.6rem;
-    font: normal normal normal 1.6rem/2.3rem Montserrat;
-    color: #032624;
+    padding: 20px 38px 79px 20px;
 }
 
 .card3 {
-    padding: 2rem 1.4rem 3.3rem 2rem;
+    padding: 20px 14px 33px 20px;
 }
 
-.card3-img {
-    width: 2.7rem;
-    height: 2.7rem;
-}
-
-.card3-h {
-    padding-top: 2.4rem;
-    font: normal normal 600 1.6rem/2.3rem Montserrat;
+.card-h{
+    padding-top: 24px;
+    font: normal normal 600 16px/23px Montserrat;
     color: #032624;
 }
 
-.card3-p {
-    padding-top: 1.6rem;
-    font: normal normal normal 1.6rem/2.3rem Montserrat;
+.card-p {
+    padding-top: 16px;
+    font: normal normal normal 16px/23px Montserrat;
     color: #032624;
 }
 
 .card4 {
-    padding: 2.7rem 2.4rem 2.9rem 2rem;
-}
-
-.card4-img {
-    width: 3.6rem;
-    height: 2rem;
+    padding: 27px 24px 29px 20px;
 }
 
 .card4-h {
-    padding-top: 2.4rem;
-    font: normal normal 600 1.6rem/2.3rem Montserrat;
+    padding-top: 24px;
+    font: normal normal 600 16px/23px Montserrat;
     color: #032624;
 }
 
 .card4-p {
-    padding-top: 1.6rem;
-    font: normal normal normal 1.6rem/2.3rem Montserrat;Montserrat;
+    padding-top: 20px;
+    font: normal normal normal 16px/23px Montserrat;
     color: #032624;
+}
 
+.section4 {
+    display: flex;
+    flex-direction: row;
+}
 
+.container-Left-Section4 {
+    width: 40%;
+}
+
+.container-Right-Section4 {
+    width: 60%;
+    margin-top: 9.9rem;
+    margin-left: 14.2rem;
+}
+
+.foto2 {
+    margin-left: 25rem;
+    margin-top: 5rem;
+}
+
+.section4 h1 {
+    font: normal normal bold 32px/41px Montserrat;
+    color: #0EAFAC;
+}
+
+.section4 h2 {
+    padding-top: 2.4rem;
+    font: normal normal 600 16px/23px Montserrat;
+    color: #032624;
+}
+
+.ul-Section4 {
+    padding-top: 1.6rem;
+    font: normal normal normal 16px/23px Montserrat;
+    color: #032624;
+}
+
+@media (max-width: 1250px) {
+    .section4 {
+        flex-wrap: wrap;
+    }
+    .section4 div {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .flexbox-Bot-Section3 {
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        text-align: center; 
+    }    
+    
+    .section2 {
+        flex-wrap: wrap;
+    }
+    .section2 div {
+        flex: 0 0 100%;
+        text-align: center; 
+    }
+    
 }
