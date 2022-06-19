@@ -52,6 +52,7 @@ button:hover {
     width: 100%;
     background: url(Imagens/Background.png);
     height: 503px;
+    background-size: 1366px;
 }
 
 .container-Left-Section1 {
@@ -98,51 +99,47 @@ button:hover {
 }
 
 /*CSS Section2*/
-
 .section2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 145px;
 }
 
 .container-Left-Section2 {
-    width: 60%;
+    margin-left: 250px;
+    margin-top: 101px;
+    margin-bottom: 101px;
 }
 
 .programaText {
-    padding-top: 101px;
-    padding-left: 250px;
     font: normal normal bold 32px/41px Montserrat;
     color: #032624;
 }
 
 .soluçãoText {
-    padding-top: 24px;
-    padding-left: 250px;
     font: normal normal normal 16px/23px Montserrat;
     color: #032624;
+    padding-top: 24px;
 }
 
 .soluçãoText span {
     font: normal normal bold 16px/23px Montserrat;
+    color: #032624;
 }
 
-.portaText {
+.futuroText {
+    font: normal normal 600 16px/23px Montserrat;color: #0EAFAC;
     padding-top: 16px;
-    padding-left: 250px;
-    font: normal normal 600 16px/23px Montserrat;
-    color: #0EAFAC;
 }
 
 .container-Right-Section2 {
-    width: 40%;
+    margin-right: 250px;
 }
 
-.foto1 {
-    margin-right:  250px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 
+
+/*Section 3*/
 .section3 {
     background: #F6F6F6 0% 0% no-repeat;
 }
@@ -237,13 +234,14 @@ button:hover {
 
 .container-Right-Section4 {
     width: 60%;
-    margin-top: 9.9rem;
-    margin-left: 14.2rem;
+    margin-top: 99px;
+    margin-left: 142px;
+    margin-bottom: 163px;
 }
 
 .foto2 {
-    margin-left: 25rem;
-    margin-top: 5rem;
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
 .section4 h1 {
@@ -252,24 +250,48 @@ button:hover {
 }
 
 .section4 h2 {
-    padding-top: 2.4rem;
+    padding-top: 24px;
     font: normal normal 600 16px/23px Montserrat;
     color: #032624;
 }
 
 .ul-Section4 {
-    padding-top: 1.6rem;
+    padding-top: 16px;
     font: normal normal normal 16px/23px Montserrat;
     color: #032624;
 }
 
 @media (max-width: 1250px) {
+    html, body {
+        width:100%;
+        overflow-x:hidden;
+    }
+    
+    .section2 {
+        flex-wrap: wrap;
+        gap: 0px
+    }
+    .section2 div {
+        flex: 0 0 100%;
+        text-align: center; 
+    }
+    .container-Left-Section2 {
+        margin-left: 0px;
+    }
+    .container-Right-Section2 {
+        margin-bottom: 50px;
+    }
+
     .section4 {
         flex-wrap: wrap;
     }
     .section4 div {
         flex: 0 0 100%;
         text-align: center;
+        margin-left: 0px;
+    }
+    .foto2 {
+        margin-left: 0px;
     }
 
     .flexbox-Bot-Section3 {
@@ -278,12 +300,8 @@ button:hover {
         text-align: center; 
     }    
     
-    .section2 {
-        flex-wrap: wrap;
-    }
-    .section2 div {
-        flex: 0 0 100%;
-        text-align: center; 
-    }
+    
+    
+    
     
 }
