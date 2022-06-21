@@ -229,19 +229,14 @@ button:hover {
 }
 
 .container-Left-Section4 {
-    width: 40%;
+    margin-left: 250px;
+    margin-top: 50px;
 }
 
 .container-Right-Section4 {
-    width: 60%;
     margin-top: 99px;
     margin-left: 142px;
-    margin-bottom: 163px;
-}
-
-.foto2 {
-    margin-left: 250px;
-    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .section4 h1 {
@@ -256,6 +251,42 @@ button:hover {
 }
 
 .ul-Section4 {
+    padding-top: 16px;
+    font: normal normal normal 16px/23px Montserrat;
+    color: #032624;
+}
+
+.section5 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-Left-Section5 {
+    margin-left: 182px;
+    margin-top: 50px;
+    margin-right: 250px;
+    order: 2;
+}
+
+.container-Right-Section5 {
+    margin-top: 99px;
+    margin-left: 250px;
+    margin-bottom: 60px;
+    order: 1;
+}
+
+.section5 h1 {
+    font: normal normal bold 32px/41px Montserrat;
+    color: #0EAFAC;
+}
+
+.section5 h2 {
+    padding-top: 24px;
+    font: normal normal 600 16px/23px Montserrat;
+    color: #032624;
+}
+
+.ul-Section5 {
     padding-top: 16px;
     font: normal normal normal 16px/23px Montserrat;
     color: #032624;
@@ -282,6 +313,12 @@ button:hover {
         margin-bottom: 50px;
     }
 
+    .flexbox-Bot-Section3 {
+        flex-wrap: wrap;
+        flex: 0 0 100%;
+        text-align: center; 
+    }    
+
     .section4 {
         flex-wrap: wrap;
     }
@@ -292,15 +329,22 @@ button:hover {
     }
     .foto2 {
         margin-left: 0px;
+    } 
+    
+    .section5 {
+        flex-wrap: wrap;
+    }
+    .section5 div {
+        flex: 0 0 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .foto3 {
+        margin-left: 0px;
+        align-items: center;
     }
 
-    .flexbox-Bot-Section3 {
-        flex-wrap: wrap;
-        flex: 0 0 100%;
-        text-align: center; 
-    }    
-    
-    
     
     
     
