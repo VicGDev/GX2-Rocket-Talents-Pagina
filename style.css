@@ -7,40 +7,60 @@ body {
 /*CSS Header*/
 header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: row;
-    padding: 2rem 12rem;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
 }
 
 nav {
     display: flex;
-    gap: 4rem;
+    gap: 40px;
+    font: normal normal medium 18px/22px Montserrat;
+    color: #1C1C1D;
     font-weight: 500;
-    font-size: 1.8rem;
+}
+
+details summary {
+    list-style: none;
+    font-size: 30px;
+}
+details {
+    display: none;
+    cursor: pointer;
+}
+details ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 0.6px solid #10DFC2;
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1C1C1D ;
 }
 
 .button-contato {
     background-color: #10DFC2;
-    top: 1.9rem;
-    left: 103.3rem;
-    width: 21.3rem;
-    height: 4.2rem;
-    border-radius: 1.5rem;
+    width: 213px;
+    height: 42px;
+    border-radius: 15px;
     border-color: #10DFC2;
     color: #FBFBFB;
     font-family: "Montserrat";
-    font-weight: bolder;
+    font-weight: bold;
     transition: 0.5s all;
     cursor: pointer;
     border: none;
-    font-size: 1.8rem
+    font-size: 15px;
 }
 
 .button-contato:hover {
     background-color: white;
     color:#10DFC2;
-    border: solid 0.1rem#10DFC2;
+    border: solid 1.5px#10DFC2;
 }
 
 /*CSS Section1*/
@@ -456,29 +476,6 @@ address p {
         width:100%;
         overflow-x:hidden;
     }
-
-    .section1 {
-        flex-wrap: wrap;
-        gap: 0px;
-        height: 100%;
-    }
-    .section1 div {
-        flex: 0 0 100%;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px; 
-    }
-    .logoRocket,.logoTalents {
-        display: none;
-    }
-    .logoBranco{
-        margin: auto;
-        padding: 0px;
-    }
-    .carreiraText,.tripulaçãoText {
-        padding: 0px;
-    }
-    
     .section2 {
         flex-wrap: wrap;
         gap: 0px
@@ -529,23 +526,33 @@ address p {
         align-items: center;
         margin-bottom: 60px;
     }
+}
 
-    .section6 {
+@media (max-width: 1050px) {
+    .section1 {
         flex-wrap: wrap;
-        height: 100%;
         gap: 0px;
+        height: 100%;
     }
-
-    .section6 div,form {
+    .section1 div {
         flex: 0 0 100%;
         text-align: center;
-    }   
-    .button-email {
-        margin: auto;
-        margin-top: 16px;
-        margin-bottom: 58px;
+        margin-top: 20px;
+        margin-bottom: 20px; 
     }
+    .logoRocket,.logoTalents {
+        display: none;
+    }
+    .logoBranco{
+        margin: auto;
+        padding: 0px;
+    }
+    .carreiraText,.tripulaçãoText {
+        padding: 0px;
+    }
+}
 
+@media(max-width: 1015px) {
     footer {
         flex-wrap: wrap;
         height: 1500px;
@@ -572,6 +579,45 @@ address p {
     address {
         display: block;
     }
-    
-    
+}
+
+@media (max-width: 780px) {
+    header {
+      justify-content: space-around;
+    }
+    nav {
+      display: none;
+    }
+    details {
+      display: flex;
+    }
+
+    .section6 {
+        flex-wrap: wrap;
+        height: 100%;
+        gap: 0px;
+    }
+
+    .section6 div,form {
+        flex: 0 0 100%;
+        text-align: center;
+    }   
+    .button-email {
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 58px;
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        flex-wrap: wrap;
+        gap: 0px;
+        height: 100%;
+    }
+    header div,details {
+        flex: 0 0 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px; 
 }
