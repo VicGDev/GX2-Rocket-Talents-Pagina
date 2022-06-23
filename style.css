@@ -1,6 +1,7 @@
 
 body {
     font-family: "Montserrat";
+    
 }
 
 /*CSS Header*/
@@ -352,6 +353,102 @@ input:focus {
     border: solid 1px #FFB900;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #04254C;
+    height: 456px;
+    gap: 70px;
+    background-size: cover;
+}
+
+.container1-footer {
+    width: 428px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.parceiroText {
+    padding-top: 32px;
+    font: normal normal 600 16px/23px Montserrat;
+    color: #FFFFFF;
+}
+
+.nacionalText {
+    padding-top: 16px;
+    font: normal normal normal 16px/23px Montserrat;
+    color: #FFFFFF;
+}
+
+.fone-button {
+  margin-top: 40px;
+  display: flex; 
+  gap: 16px;
+  width: fit-content;
+  font: normal normal 600 16px/23px Montserrat;
+  padding: 8px 20px;
+  background-color: #ffb900;
+  border-radius: 10px;
+  border: none;
+  color: #fbfbfb;
+  cursor: pointer;
+}
+
+.container2-footer {
+    margin-top: 50px;
+}
+
+.container2-footer h1 {
+    font: normal normal 600 24px/23px Montserrat;
+    color: #FFFFFF;
+}
+
+.container2-footer ul {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font: normal normal normal 16px/23px Montserrat;
+    color: #FFFFFF;
+}
+
+.container3-footer {
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.container3-footer img {
+  padding: 15px 17px;
+  background-color: #fbfbfb;
+  border-radius: 50%;
+  width: 16px;
+  height: 20px;
+}
+
+address {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+address div {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+address h1 {
+    font: normal normal 600 16px/23px Montserrat;
+    color: #FFFFFF;
+}
+
+address p {
+    font: normal normal normal 16px/23px Montserrat;
+    color: #FFFFFF;
+} 
 
 
 @media (max-width: 1250px) {
@@ -367,10 +464,16 @@ input:focus {
     }
     .section1 div {
         flex: 0 0 100%;
-        text-align: center; 
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px; 
     }
-    .logoBranco,.logoRocket,.logoTalents {
+    .logoRocket,.logoTalents {
         display: none;
+    }
+    .logoBranco{
+        margin: auto;
+        padding: 0px;
     }
     .carreiraText,.tripulaçãoText {
         padding: 0px;
@@ -397,7 +500,7 @@ input:focus {
         text-align: center; 
     }    
     .card {
-        height: fit-content;
+        height: auto;
     }
 
     .section4 {
@@ -442,5 +545,33 @@ input:focus {
         margin-top: 16px;
         margin-bottom: 58px;
     }
+
+    footer {
+        flex-wrap: wrap;
+        height: 1500px;
+        display: flex;
+        flex-direction: row ;
+    }
+    footer div {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .container1-footer {
+        margin-left: 0px;
+    }
+    .fone-button {
+        margin: auto;
+        margin-top: 16px;
+    }
+    .container2-footer {
+        margin-top: 0px;
+    }
+    .container3-footer {
+        margin-top: 0px;
+    }
+    address {
+        display: block;
+    }
+    
     
 }
