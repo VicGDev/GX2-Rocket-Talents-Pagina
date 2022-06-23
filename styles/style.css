@@ -68,7 +68,7 @@ details ul {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background: url(Imagens/Background.png);
+    background: url(../Imagens/Background.png);;
     height: 503px;
     background-size: 1366px;
 }
@@ -620,4 +620,5 @@ address p {
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px; 
+    }
 }
